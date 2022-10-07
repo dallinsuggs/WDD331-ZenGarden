@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #CAF0F8;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "Comforter Brush", cursive;
+  color: #CAF0F8;
+  font-size: 2.6em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #CAF0F8;
+  font-size: 1.8em;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #CAF0F8;
+  font-size: 1.5em;
+}
+
+p, figcaption {
+  font-family: "Open Sans", sans-serif;
+  color: #CAF0F8;
+}
+
+body {
+  background-image: url("assets/starry night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+}
+
+section {
+  border-style: outset;
+  border-color: #0096c7;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1em;
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  background-color: #0096c7;
+  color: #CAF0F8;
+  padding: 0.3em;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #CAF0F8;
+  color: #03045E;
+}
+
+.swatch.primary {
+  background-color: #03045E;
+  width: 5em;
+  height: 5em;
+  border-style: outset;
+  border-color: #0096c7;
+  border-radius: 5px;
+}
+
+.swatch.accent1 {
+  background-color: #0096c7;
+  width: 5em;
+  height: 5em;
+  border-style: outset;
+  border-color: #0096c7;
+  border-radius: 5px;
+}
+
+.swatch.accent2 {
+  background-color: #48cae4;
+  width: 5em;
+  height: 5em;
+  border-style: outset;
+  border-color: #0096c7;
+  border-radius: 5px;
+}
+
+.swatch.text-dark {
+  background-color: #CAF0F8;
+  width: 5em;
+  height: 5em;
+  border-style: outset;
+  border-color: #0096c7;
+  border-radius: 5px;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.colors h3 {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

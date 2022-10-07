@@ -1,7 +1,92 @@
 @use 'variables' as *;
 
-h1 {
-  font-family: $cleartitle;
+//mixins
+@mixin color-swatch {
+  width: 5em;
+  height: 5em;
+}
+
+@mixin border {
+  border-style: outset;
+  border-color: $secondaryblue;
+  border-radius: 5px;
+}
+
+@mixin heading($size, $font) {
+  font-family: $font;
   color: $lightblue;
-  font-size: 2em;
+  font-size: $size;
+}
+
+
+h1 {
+  @include heading(3em, $cleartitle);
+}
+
+h2 {
+  @include heading(2.6em, $brushtitle);
+}
+
+h3 {
+  @include heading(1.8em, $cleartitle);
+}
+
+h4 {
+  @include heading(1.5em, $cleartitle);
+}
+
+p, figcaption {
+  font-family: $maintext;
+  color: $lightblue;
+}
+
+body {
+  background-image: url("assets/starry\ night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+}
+
+section {
+  @include border();
+  margin-top: 1em;
+  padding: 1em;
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  background-color: $secondaryblue;
+  color: $lightblue;
+  padding: .3em;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: $lightblue;
+  color: $primarydkblue;
+}
+
+.swatch.primary {
+  background-color: $primarydkblue;
+  @include color-swatch();
+  @include border();
+}
+
+.swatch.accent1 {
+  background-color: $secondaryblue;
+  @include color-swatch();
+  @include border();
+}
+
+.swatch.accent2 {
+  background-color: $accent;
+  @include color-swatch();
+  @include border();
+}
+
+.swatch.text-dark {
+  background-color: $lightblue;
+  @include color-swatch();
+  @include border();
 }
