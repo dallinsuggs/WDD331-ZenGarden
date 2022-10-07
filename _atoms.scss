@@ -1,2 +1,7 @@
 @use 'variables' as *;
 
+h1 {
+  font-family: $cleartitle;
+  color: $lightblue;
+  font-size: 2em;
+}
