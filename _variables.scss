@@ -1,3 +1,23 @@
+//mixins
+@mixin breakpoint($break) {
+  @if $break == large {
+    @media (min-width: $break-large) { @content; }
+  }
+  @else if $break == small {
+    @media (min-width: $break-small) { @content; }
+  } @else {
+    @media ($break) { @content; }
+  }
+} 
+// USAGE FOR BREAKPOINT MIXIN
+
+// @include breakpoint(small) {
+// (rules go here that will  apply to small layout)
+//}
+// @include breakpoint(large) {
+// (rules go here that will  apply to large layout)
+//}
+
 //fonts
 $cleartitle: 'Montserrat', sans-serif;
 $brushtitle: 'Comforter Brush', cursive;
@@ -8,3 +28,7 @@ $primarydkblue: #03045E;
 $secondaryblue: #0096c7;
 $accent: #48cae4;
 $lightblue: #CAF0F8;
+
+//breakpoints
+$break-small: 0px;
+$break-large: 700px;
