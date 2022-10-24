@@ -29,10 +29,7 @@ p, figcaption {
 }
 
 body {
-  background-image: url("assets/starry night.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  backdrop-filter: blur(8px);
+  background-image: linear-gradient(#03045E, #0096c7);
 }
 
 section {
