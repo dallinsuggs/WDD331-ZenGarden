@@ -17,26 +17,26 @@
 
 .preamble {
   display: grid;
+  grid-template-columns: 50px 1fr;
   grid-template-areas: 
-    "preheader" "prep1"
-    "preheader" "prep2"
-    "preheader" "prep3"
-  ;
+    "preheader prep1"
+    "preheader prep2"
+    "preheader prep3";
 }
 
 .preamble h3 {
-  grid-area: "preheader";
+  grid-area: preheader;
 }
 
 .preamble p:nth-child(1) {
-  grid-area: "prep1";
+  grid-area: prep1;
 }
 
 .preamble p:nth-child(2) {
-  grid-area: "prep2";
+  grid-area: prep2;
 
 }
 
 .preamble p:nth-child(3) {
-  grid-area: "prep3";
+  grid-area: prep3;
 }
