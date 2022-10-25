@@ -2,9 +2,37 @@
 @use 'variables' as *;
 @use 'atoms';
 @use 'molecules';
-@use 'organisms' as o;
+@use 'organisms';
 
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 // a test comment
 
+.preamble {
+    display: grid;
+}
+/*.preamble {
+    display: grid;
+    grid-template-areas: 
+      "preheader" "prep1"
+      "preheader" "prep2"
+      "preheader" "prep3"
+    ;
+  }
+  
+  .preamble h3 {
+    grid-area: "preheader";
+  }
+  
+  .preamble p:nth-child(1) {
+    grid-area: "prep1";
+  }
+  
+  .preamble p:nth-child(2) {
+    grid-area: "prep2";
+  
+  }
+  
+  .preamble p:nth-child(3) {
+    grid-area: "prep3";
+  } */
