@@ -99,4 +99,25 @@ a:hover {
   width: 100%;
 }
 
+.preamble {
+  display: grid;
+  grid-template-areas: "preheader" "prep1" "preheader" "prep2" "preheader" "prep3";
+}
+
+.preamble h3 {
+  grid-area: "preheader";
+}
+
+.preamble p:nth-child(1) {
+  grid-area: "prep1";
+}
+
+.preamble p:nth-child(2) {
+  grid-area: "prep2";
+}
+
+.preamble p:nth-child(3) {
+  grid-area: "prep3";
+}
+
 /*# sourceMappingURL=syle.css.map */
