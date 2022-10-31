@@ -33,6 +33,7 @@ h3 {
 
 h4 {
   @include heading(1.5em, $cleartitle);
+  font-style: italic;
 }
 
 p, figcaption {

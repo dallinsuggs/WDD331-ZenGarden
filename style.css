@@ -21,6 +21,7 @@ h4 {
   font-family: "Montserrat", sans-serif;
   color: #CAF0F8;
   font-size: 1.5em;
+  font-style: italic;
 }
 
 p, figcaption {
@@ -120,4 +121,6 @@ a:hover {
 
 .preamble p:nth-child(3) {
   grid-area: prep3;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
