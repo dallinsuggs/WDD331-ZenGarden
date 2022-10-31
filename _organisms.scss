@@ -12,7 +12,7 @@
 }
 
 
-//testing
+//testing - making a change just to see if there's a change 
 
 
 .preamble {
@@ -26,6 +26,8 @@
 
 .preamble h3 {
   grid-area: preheader;
+  color: $accent;
+
 }
 
 .preamble p:nth-child(1) {
