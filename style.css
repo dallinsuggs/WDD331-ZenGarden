@@ -134,7 +134,7 @@ a:hover {
   color: #03045E;
 }
 
-.preabmle p:nth-child(1) {
+.preabmle p:first-of-type {
   margin-top: -50px;
 }
 
