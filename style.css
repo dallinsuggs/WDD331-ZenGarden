@@ -101,26 +101,31 @@ a:hover {
 }
 
 .preamble {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  grid-template-areas: "preheader prep1" "preheader prep2" "preheader prep3";
+  background-color: #CAF0F8;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .preamble h3 {
-  grid-area: preheader;
-  color: #48cae4;
-}
-
-.preamble p:nth-child(1) {
-  grid-area: prep1;
-}
-
-.preamble p:nth-child(2) {
-  grid-area: prep2;
-}
-
-.preamble p:nth-child(3) {
-  grid-area: prep3;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: -30px;
+  background-color: #03045E;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */

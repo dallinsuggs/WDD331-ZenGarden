@@ -11,34 +11,61 @@
   }
 }
 
+.preamble {
+  background-color: $lightblue;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.preamble h3 {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: -30px;
+  background-color: $primarydkblue;
+  -webkit-transform: rotate(270deg); //all this can be turned into a mixin
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
 
 //testing - making a change just to see if there's a change 
 
 
-.preamble {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  grid-template-areas: 
-    "preheader prep1"
-    "preheader prep2"
-    "preheader prep3";
-}
+// .preamble {
+//   display: grid;
+//   grid-template-columns: 50px 1fr;
+//   grid-template-areas: 
+//     "preheader prep1"
+//     "preheader prep2"
+//     "preheader prep3";
+// }
 
-.preamble h3 {
-  grid-area: preheader;
-  color: $accent;
+// .preamble h3 {
+//   grid-area: preheader;
+//   color: $accent;
 
-}
+// }
 
-.preamble p:nth-child(1) {
-  grid-area: prep1;
-}
+// .preamble p:nth-child(1) {
+//   grid-area: prep1;
+// }
 
-.preamble p:nth-child(2) {
-  grid-area: prep2;
+// .preamble p:nth-child(2) {
+//   grid-area: prep2;
 
-}
+// }
 
-.preamble p:nth-child(3) {
-  grid-area: prep3;
-}
+// .preamble p:nth-child(3) {
+//   grid-area: prep3;
+// }
