@@ -25,7 +25,7 @@
   letter-spacing: 3px;
   text-align: center;
   position: relative;
-  top: 178px;
+  top: 182px;
   right: 60px;
   max-width: 200px;
   padding: 5px;
@@ -41,6 +41,7 @@
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
   border-radius: 20px 20px 0 0;
+  border: solid $lightblue 2px;
 }
 
 .preamble p {
