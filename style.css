@@ -48,11 +48,14 @@ a {
   color: #CAF0F8;
   padding: 0.3em;
   border-radius: 5px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
   background-color: #CAF0F8;
   color: #03045E;
+  transform: scale(1.1);
 }
 
 .swatch.primary {
