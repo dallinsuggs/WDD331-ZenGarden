@@ -15,6 +15,7 @@
   background-color: $lightblue;
   width: 90%;
   margin: 0 auto;
+  padding: 1em;
 }
 
 .preamble h3 {
@@ -24,7 +25,7 @@
   letter-spacing: 3px;
   text-align: center;
   position: relative;
-  top: 220px;
+  top: 178px;
   right: 60px;
   max-width: 200px;
   padding: 5px;
@@ -39,14 +40,15 @@
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 .preamble p {
   color: $primarydkblue;
 }
 
-.preabmle p:first-of-type{
-  margin-top: -50px;
+.preamble p:first-of-type{
+  margin-top: -80px;
 }
 
 //testing - making a change just to see if there's a change 
