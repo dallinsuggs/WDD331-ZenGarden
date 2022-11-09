@@ -14,71 +14,29 @@
 .preamble {
   background-color: $lightblue;
   width: 90%;
-  margin: 0 auto;
+  margin: 70px auto 0 auto;
   padding: 1em;
 }
 
-.preamble h3 {
-  font-size: 1rem;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
-  position: relative;
-  top: 182px;
-  right: 60px;
-  max-width: 200px;
-  padding: 5px;
-  background-color: $primarydkblue;
-  -webkit-transform: rotate(270deg); //all this can be turned into a mixin
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  transform-origin: 0 0;
-  border-radius: 20px 20px 0 0;
-  border: solid $lightblue 2px;
-}
+
 
 .preamble p {
   color: $primarydkblue;
 }
 
 .preamble p:first-of-type{
-  margin-top: -80px;
+  margin-top: 0px;
 }
 
-//testing - making a change just to see if there's a change 
+@media screen and (min-width: $break-large) {
+  .preamble p:first-of-type{
+    margin-top: -80px;
+  }
 
+  .preamble {
+    margin-top: 0;
+    min-height: 182px;
+    width: 85%;
+  }
+}
 
-// .preamble {
-//   display: grid;
-//   grid-template-columns: 50px 1fr;
-//   grid-template-areas: 
-//     "preheader prep1"
-//     "preheader prep2"
-//     "preheader prep3";
-// }
-
-// .preamble h3 {
-//   grid-area: preheader;
-//   color: $accent;
-
-// }
-
-// .preamble p:nth-child(1) {
-//   grid-area: prep1;
-// }
-
-// .preamble p:nth-child(2) {
-//   grid-area: prep2;
-
-// }
-
-// .preamble p:nth-child(3) {
-//   grid-area: prep3;
-// }
