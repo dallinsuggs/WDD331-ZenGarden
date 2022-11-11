@@ -63,7 +63,7 @@ body {
     }
 }
 
-section {
+section, .supporting, .sidebar {
   @include border();
   margin-top: 1em;
   padding: 1em;
@@ -84,6 +84,7 @@ a:hover {
   background-color: $lightblue;
   color: $primarydkblue;
   transform: scale(1.1); 
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.7));
 }
 
 .swatch.primary {
@@ -108,4 +109,44 @@ a:hover {
   background-color: $lightblue;
   @include color-swatch();
   @include border();
+}
+
+li {
+  color: $lightblue;
+  list-style-type: none;
+  line-height: 1em;
+  margin-bottom: .3em;
+}
+
+.sidebar ul {
+  @include border;
+  padding: 2em;
+  padding-top: 2.5em;
+  border-style:groove;
+  border-radius: 30% 40% 80% 20% / 40% 60% 30% 25%;
+}
+
+.sidebar h3 {
+  transform: rotate(-10deg);
+}
+
+.designer-name {
+  color: $primarydkblue;
+}
+
+@include breakpoint(large) {
+  .page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  .sidebar {
+    order: -1;
+    width: 400px;
+  }
+
+  .intro {
+    max-width: calc(100vw - 510px);
+  }
 }

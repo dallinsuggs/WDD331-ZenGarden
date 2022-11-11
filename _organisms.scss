@@ -13,7 +13,7 @@
 
 .preamble {
   background-color: $lightblue;
-  width: 90%;
+  max-width: 90%;
   margin: 70px auto 0 auto;
   padding: 1em;
 }
@@ -36,7 +36,7 @@
   .preamble {
     margin-top: 0;
     min-height: 182px;
-    width: 85%;
+    max-width: 85%;
   }
 }
 
