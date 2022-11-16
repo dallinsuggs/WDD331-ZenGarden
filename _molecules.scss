@@ -22,13 +22,17 @@
 transform-origin: $origin;
 }
 
+%h3tags {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
 .preamble h3, .participation h3 {
-    font-size: 1rem;
+    @extend %h3tags;
     color: white;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    border-radius: 20px 20px 0 0;
     border: solid $lightblue 2px;
     background-color: $primarydkblue;
     margin-top: -60px;
@@ -36,12 +40,9 @@ transform-origin: $origin;
   }
 
   .explanation h3 {
-    font-size: 1rem;
+    @extend %h3tags;
     color: $primarydkblue;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px 20px 0 0;
     border: solid $primarydkblue 2px;
     background-color: $accent;
     margin-top: -60px;

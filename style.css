@@ -148,13 +148,16 @@ li {
     max-width: calc(100vw - 510px);
   }
 }
-.preamble h3, .participation h3 {
+.explanation h3, .preamble h3, .participation h3 {
   font-size: 1rem;
-  color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   border-radius: 20px 20px 0 0;
+}
+
+.preamble h3, .participation h3 {
+  color: white;
   border: solid #CAF0F8 2px;
   background-color: #03045E;
   margin-top: -60px;
@@ -162,12 +165,8 @@ li {
 }
 
 .explanation h3 {
-  font-size: 1rem;
   color: #03045E;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px 20px 0 0;
   border: solid #03045E 2px;
   background-color: #48cae4;
   margin-top: -60px;
