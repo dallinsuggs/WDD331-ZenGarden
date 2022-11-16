@@ -18,7 +18,7 @@
   padding: 1em;
 }
 
-.explination {
+.explanation {
   background-color: $primarydkblue;
   max-width: 90%;
   margin: 70px auto 0 auto;
@@ -31,16 +31,16 @@
   color: $primarydkblue;
 }
 
-.preamble p:first-of-type, .participation p:first-of-type, .explination p:first-of-type{
+.preamble p:first-of-type, .participation p:first-of-type,  .explanation p:first-of-type{
   margin-top: 0px;
 }
 
 @media screen and (min-width: $break-large) {
-  .preamble p:first-of-type, .participation p:first-of-type, .explination p:first-of-type{
+  .preamble p:first-of-type, .participation p:first-of-type,  .explanation p:first-of-type{
     margin-top: -60px;
   }
 
-  .preamble, .participation, .explination {
+  .preamble, .participation, .explanation {
     margin-top: 0;
     min-height: 108px;
     max-width: 85%;
