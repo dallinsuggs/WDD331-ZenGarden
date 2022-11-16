@@ -22,7 +22,7 @@
 transform-origin: $origin;
 }
 
-.preamble h3 {
+.preamble h3, .participation h3 {
     font-size: 1rem;
     color: white;
     text-transform: uppercase;
@@ -35,8 +35,21 @@ transform-origin: $origin;
     padding: 1em;
   }
 
+  .explanation h3 {
+    font-size: 1rem;
+    color: $primarydkblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    border: solid $primarydkblue 2px;
+    background-color: $accent;
+    margin-top: -60px;
+    padding: 1em;
+  }
+
   @media screen and (min-width: $break-large) {
-    .preamble h3 {
+    .preamble h3, .participation h3, .explanation h3 {
         position: relative;
         top: 172px;
         right: 40px;
@@ -46,6 +59,7 @@ transform-origin: $origin;
         @include rotate(270);
         @include transform-origin(0);
     }
+
 
   }
 
