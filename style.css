@@ -161,6 +161,7 @@ li {
   border: solid #CAF0F8 2px;
   background-color: #03045E;
   padding: 1em;
+  margin-top: -60px;
 }
 
 .explanation h3 {
@@ -169,6 +170,7 @@ li {
   border: solid #03045E 2px;
   background-color: #48cae4;
   padding: 1em;
+  margin-top: -60px;
 }
 
 @media screen and (min-width: 700px) {
@@ -189,9 +191,6 @@ li {
   .preamble h3 {
     top: 172px;
     right: 40px;
-  }
-  .explanation h3 {
-    margin-top: -60px;
   }
   .explanation {
     padding-left: -70px;
