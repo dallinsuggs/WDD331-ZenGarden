@@ -46,7 +46,7 @@ transform-origin: $origin;
     color: $primarydkblue;
     border-radius: 20px 20px 0 0;
     border: solid $primarydkblue 2px;
-    background-color: $accent;
+    background-color: $lightblue;
     padding: 1em;
     margin-top: -60px;
   }
@@ -66,15 +66,21 @@ transform-origin: $origin;
       right: 40px;
     }
   
-
+    .explanation h3 {
+      top: 172px;
+      left: -40px;
+    }
 
 
     .explanation {
       padding-left: -70px;
     }
+
+
     .participation h3 {
       margin-top: 10px;
-      left:-60px;
+      left:-30px;
+      top: 172px;
     }
 
   }

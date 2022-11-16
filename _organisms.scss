@@ -42,9 +42,17 @@
 
   .preamble, .participation, .explanation {
     margin-top: 0;
-    min-height: 108px;
     max-width: 85%;
     padding-bottom:10px;
+  }
+
+  .preamble {
+    min-height: 108px;
+  }
+
+  .explanation {
+    min-height: 210px;
+    margin-bottom: 2em;
   }
 }
 
