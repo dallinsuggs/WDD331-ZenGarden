@@ -35,8 +35,16 @@ transform-origin: $origin;
     color: white;
     border: solid $lightblue 2px;
     background-color: $primarydkblue;
-    margin-top: -60px;
     padding: 1em;
+  }
+
+  .preamble h3 {
+    margin-top: -60px;
+  }
+
+  .participation h3 {
+    margin-top: 10px;
+    left:-60px;
   }
 
   .explanation h3 {

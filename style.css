@@ -160,8 +160,16 @@ li {
   color: white;
   border: solid #CAF0F8 2px;
   background-color: #03045E;
-  margin-top: -60px;
   padding: 1em;
+}
+
+.preamble h3 {
+  margin-top: -60px;
+}
+
+.participation h3 {
+  margin-top: 10px;
+  left: -60px;
 }
 
 .explanation h3 {
