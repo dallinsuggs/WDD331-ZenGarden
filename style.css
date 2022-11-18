@@ -136,16 +136,21 @@ li {
 
 @media (min-width: 700px) {
   .page-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+    display: grid;
   }
   .sidebar {
-    order: -1;
-    width: 400px;
+    grid-column-start: 3;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
   }
   .intro {
-    max-width: calc(100vw - 510px);
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .main {
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 }
 .explanation h3, .preamble h3, .participation h3 {
@@ -196,9 +201,6 @@ li {
     top: 172px;
     left: -40px;
   }
-  .explanation {
-    padding-left: -70px;
-  }
   .participation h3 {
     margin-top: 10px;
     left: -30px;
@@ -223,7 +225,6 @@ li {
 
 .explanation {
   background-color: #03045E;
-  max-width: 90%;
   margin: 70px auto 0 auto;
   padding: 1em;
 }
@@ -244,12 +245,13 @@ li {
     margin-top: 0;
     max-width: 85%;
     padding-bottom: 10px;
+    margin-left: 3em;
   }
-  .preamble {
-    min-height: 108px;
+  .preamble, .participation {
+    min-height: 11.75em;
   }
   .explanation {
-    min-height: 210px;
+    min-height: 11.75em;
     margin-bottom: 2em;
   }
 }
