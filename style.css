@@ -259,6 +259,7 @@ li {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 25%;
+    overflow: overlay;
   }
 }
 
