@@ -22,29 +22,61 @@
 transform-origin: $origin;
 }
 
-.preamble h3 {
-    font-size: 1rem;
+%h3tags {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.preamble h3, .participation h3 {
+    @extend %h3tags;
     color: white;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    border-radius: 20px 20px 0 0;
     border: solid $lightblue 2px;
     background-color: $primarydkblue;
-    margin-top: -60px;
     padding: 1em;
+    margin-top: -60px;
+}
+
+
+
+  .explanation h3 {
+    @extend %h3tags;
+    color: $primarydkblue;
+    border-radius: 20px 20px 0 0;
+    border: solid $primarydkblue 2px;
+    background-color: $lightblue;
+    padding: 1em;
+    margin-top: -60px;
   }
 
   @media screen and (min-width: $break-large) {
-    .preamble h3 {
+    .preamble h3, .participation h3, .explanation h3 {
         position: relative;
-        top: 172px;
-        right: 40px;
         max-width: 200px;
         padding: 5px;
         margin-top: 0;
         @include rotate(270);
         @include transform-origin(0);
+    }
+
+    .preamble h3 {
+      top: 172px;
+      right: 40px;
+    }
+  
+    .explanation h3 {
+      top: 172px;
+      left: -40px;
+    }
+
+
+
+    .participation h3 {
+      margin-top: 10px;
+      left:-30px;
+      top: 172px;
     }
 
   }

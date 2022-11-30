@@ -135,18 +135,25 @@ li {
 }
 
 @include breakpoint(large) {
+
   .page-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+    display: grid;
   }
 
   .sidebar {
-    order: -1;
-    width: 400px;
+    grid-column-start: 3;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
   }
 
   .intro {
-    max-width: calc(100vw - 510px);
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .main {
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 }
