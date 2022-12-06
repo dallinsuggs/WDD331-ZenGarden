@@ -63,11 +63,14 @@ body {
     }
 }
 
-section, .supporting, .sidebar {
-  @include border();
+.supporting, .sidebar {
   margin-top: 1em;
   padding: 1em;
   word-wrap: break-word;
+}
+
+.sidebar {
+  @include border();
 }
 
 a {

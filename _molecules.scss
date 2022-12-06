@@ -61,22 +61,27 @@ transform-origin: $origin;
         @include transform-origin(0);
     }
 
-    .preamble h3 {
-      top: 172px;
-      right: 40px;
-    }
+
   
-    .explanation h3, .benefits h3 {
+    .explanation h3, .preamble h3 {
       top: 172px;
       left: -40px;
     }
 
 
 
-    .participation h3 {
+    .benefits {
+      margin-top: 2em;
+    }
+
+    .participation h3, .benefits h3 {
       margin-top: 10px;
       left:-30px;
       top: 172px;
+    }
+
+    .benefits h3 {
+      top: 182px;
     }
 
   }
