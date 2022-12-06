@@ -35,8 +35,12 @@
 }
 
 @media screen and (min-width: $break-large) {
-  .preamble p:first-of-type, .participation p:first-of-type,  .explanation p:first-of-type, .benefits p:first-of-type{
+  .preamble p:first-of-type, .participation p:first-of-type,  .explanation p:first-of-type{
     margin-top: -60px;
+  }
+
+  .benefits p:first-of-type {
+    margin-top: -40px;
   }
 
   .preamble, .participation, .explanation, .benefits {
