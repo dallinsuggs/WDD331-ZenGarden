@@ -36,6 +36,17 @@ h4 {
   font-style: italic;
 }
 
+footer a {
+  width: 70%;
+  text-align: center;
+  margin: .5em auto;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+}
+
 p, figcaption {
   font-family: $maintext;
   color: $lightblue;
@@ -158,5 +169,16 @@ li {
   .main {
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+
+  footer {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  footer a {
+    width: 18%;
   }
 }

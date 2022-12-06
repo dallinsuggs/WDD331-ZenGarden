@@ -24,6 +24,17 @@ h4 {
   font-style: italic;
 }
 
+footer a {
+  width: 70%;
+  text-align: center;
+  margin: 0.5em auto;
+  font-weight: bold;
+}
+
+footer {
+  display: block;
+}
+
 p, figcaption {
   font-family: "Open Sans", sans-serif;
   color: #CAF0F8;
@@ -155,6 +166,15 @@ li {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+  footer {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  footer a {
+    width: 18%;
+  }
 }
 .explanation h3, .benefits h3, .preamble h3, .participation h3, .requirements h3 {
   font-size: 1rem;
@@ -240,7 +260,7 @@ li {
 }
 
 @media screen and (min-width: 700px) {
-  .preamble p:first-of-type, .participation p:first-of-type, .explanation p:first-of-type {
+  .preamble p:first-of-type, .participation p:first-of-type, .explanation p:first-of-type, .requirements p:first-of-type {
     margin-top: -60px;
   }
   .benefits p:first-of-type {
