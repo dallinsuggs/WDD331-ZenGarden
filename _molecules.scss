@@ -27,7 +27,6 @@ transform-origin: $origin;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
-  border-radius: 20px 20px 0 0;
 }
 
 .preamble h3, .participation h3, .requirements h3 {
@@ -41,16 +40,22 @@ transform-origin: $origin;
 
 
 
-  .explanation h3, .benefits h3 {
-    @extend %h3tags;
-    color: $primarydkblue;
-    border-radius: 20px 20px 0 0;
-    border: solid $primarydkblue 2px;
-    background-color: $lightblue;
-    padding: 1em;
-    margin-top: -60px;
-  }
+.explanation h3, .benefits h3 {
+  @extend %h3tags;
+  color: $primarydkblue;
+  border: solid $primarydkblue 2px;
+  background-color: $lightblue;
+  padding: 1em;
+  margin-top: -60px;
+}
 
+.preamble h3, .participation h3, .explanation h3, .requirements h3, .benefits h3 {
+  border-radius: 20px;
+}
+
+.preamble, .participation, .explanation, .requirements, .benefits {
+  border-radius: 20px;
+}
 
 
   @media screen and (min-width: $break-large) {
@@ -58,9 +63,14 @@ transform-origin: $origin;
         position: relative;
         max-width: 200px;
         padding: 5px;
+        border-radius: 20px 20px 0 0; 
         margin-top: 0;
         @include rotate(270);
         @include transform-origin(0);
+    }
+
+    .preamble, .participation, .explanation, .requirements, .benefits {
+      border-radius: 0 20px 20px 0; 
     }
 
 

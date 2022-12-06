@@ -186,7 +186,6 @@ li {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
-  border-radius: 20px 20px 0 0;
 }
 
 .preamble h3, .participation h3, .requirements h3 {
@@ -199,11 +198,18 @@ li {
 
 .explanation h3, .benefits h3 {
   color: #03045E;
-  border-radius: 20px 20px 0 0;
   border: solid #03045E 2px;
   background-color: #CAF0F8;
   padding: 1em;
   margin-top: -60px;
+}
+
+.preamble h3, .participation h3, .explanation h3, .requirements h3, .benefits h3 {
+  border-radius: 20px;
+}
+
+.preamble, .participation, .explanation, .requirements, .benefits {
+  border-radius: 20px;
 }
 
 @media screen and (min-width: 700px) {
@@ -211,6 +217,7 @@ li {
     position: relative;
     max-width: 200px;
     padding: 5px;
+    border-radius: 20px 20px 0 0;
     margin-top: 0;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -220,6 +227,9 @@ li {
     -moz-transform-origin: 0;
     -ms-transform-origin: 0;
     transform-origin: 0;
+  }
+  .preamble, .participation, .explanation, .requirements, .benefits {
+    border-radius: 0 20px 20px 0;
   }
   .explanation h3, .preamble h3 {
     top: 172px;
@@ -243,21 +253,19 @@ li {
   width: 100%;
 }
 
-.preamble, .participation, .requirements {
+.preamble, .participation, .requirements, .explanation, .benefits {
   background-color: #CAF0F8;
-  max-width: 90%;
-  margin: 70px auto 0 auto;
+  margin-top: 70px;
+  max-width: 100%;
   padding: 1em;
 }
 
-.requirements {
+.main {
   margin-top: 0px;
 }
 
 .explanation, .benefits {
   background-color: #03045E;
-  margin: 70px auto 0 auto;
-  padding: 1em;
 }
 
 .preamble p, .participation p, .requirements p {
@@ -275,7 +283,7 @@ li {
   .benefits p:first-of-type {
     margin-top: -40px;
   }
-  .preamble, .participation, .explanation, .benefits {
+  .preamble, .participation, .explanation, .benefits, .requirements {
     margin-top: 0;
     max-width: 85%;
     padding-bottom: 10px;
