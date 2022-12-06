@@ -25,10 +25,13 @@ h4 {
 }
 
 footer a {
-  width: 70%;
+  width: 50%;
   text-align: center;
-  margin: 0.5em auto;
+  margin: 1em auto;
   font-weight: bold;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
 }
 
 footer {
@@ -171,6 +174,8 @@ li {
     gap: 1em;
     justify-content: center;
     padding-top: 30px;
+    width: 95%;
+    margin: 0 auto;
   }
   footer a {
     width: 18%;
@@ -243,6 +248,10 @@ li {
   max-width: 90%;
   margin: 70px auto 0 auto;
   padding: 1em;
+}
+
+.requirements {
+  margin-top: 0px;
 }
 
 .explanation, .benefits {
