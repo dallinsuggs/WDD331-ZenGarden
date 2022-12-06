@@ -144,7 +144,6 @@ li {
     grid-row-start: 1;
     grid-row-end: 4;
   }
-
   .intro {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -153,10 +152,8 @@ li {
     grid-column-start: 1;
     grid-column-end: 3;
   }
-
-
 }
-.explanation h3, .preamble h3, .participation h3 {
+.explanation h3, .benefits h3, .preamble h3, .participation h3 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -172,7 +169,7 @@ li {
   margin-top: -60px;
 }
 
-.explanation h3 {
+.explanation h3, .benefits h3 {
   color: #03045E;
   border-radius: 20px 20px 0 0;
   border: solid #03045E 2px;
@@ -182,7 +179,7 @@ li {
 }
 
 @media screen and (min-width: 700px) {
-  .preamble h3, .participation h3, .explanation h3 {
+  .preamble h3, .participation h3, .explanation h3, .benefits h3 {
     position: relative;
     max-width: 200px;
     padding: 5px;
@@ -200,7 +197,7 @@ li {
     top: 172px;
     right: 40px;
   }
-  .explanation h3 {
+  .explanation h3, .benefits h3 {
     top: 172px;
     left: -40px;
   }
@@ -226,7 +223,7 @@ li {
   padding: 1em;
 }
 
-.explanation {
+.explanation, .benefits {
   background-color: #03045E;
   margin: 70px auto 0 auto;
   padding: 1em;
@@ -236,15 +233,15 @@ li {
   color: #03045E;
 }
 
-.preamble p:first-of-type, .participation p:first-of-type, .explanation p:first-of-type {
+.preamble p:first-of-type, .participation p:first-of-type, .explanation p:first-of-type, .benefits p:first-of-type {
   margin-top: 0px;
 }
 
 @media screen and (min-width: 700px) {
-  .preamble p:first-of-type, .participation p:first-of-type, .explanation p:first-of-type {
+  .preamble p:first-of-type, .participation p:first-of-type, .explanation p:first-of-type, .benefits p:first-of-type {
     margin-top: -60px;
   }
-  .preamble, .participation, .explanation {
+  .preamble, .participation, .explanation, .benefits {
     margin-top: 0;
     max-width: 85%;
     padding-bottom: 10px;
@@ -253,7 +250,7 @@ li {
   .preamble, .participation {
     min-height: 11.75em;
   }
-  .explanation {
+  .explanation, .benefits {
     min-height: 11.75em;
     margin-bottom: 2em;
   }
