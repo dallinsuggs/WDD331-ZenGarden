@@ -47,7 +47,7 @@ body {
     background-position: 0% 50%;
   }
 }
-.supporting, .sidebar {
+section, .supporting, .sidebar {
   margin-top: 1em;
   padding: 1em;
   word-wrap: break-word;
@@ -201,15 +201,12 @@ li {
     left: -40px;
   }
   .benefits {
-    margin-top: 2em;
+    margin-top: 2em !important;
   }
   .participation h3, .benefits h3 {
     margin-top: 10px;
     left: -30px;
     top: 172px;
-  }
-  .benefits h3 {
-    top: 182px;
   }
 }
 .colors {

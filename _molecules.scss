@@ -71,7 +71,7 @@ transform-origin: $origin;
 
 
     .benefits {
-      margin-top: 2em;
+      margin-top: 2em!important;
     }
 
     .participation h3, .benefits h3 {
@@ -80,9 +80,7 @@ transform-origin: $origin;
       top: 172px;
     }
 
-    .benefits h3 {
-      top: 182px;
-    }
+
 
   }
 
