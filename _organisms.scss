@@ -11,7 +11,7 @@
   }
 }
 
-.preamble, .participation {
+.preamble, .participation, .requirements {
   background-color: $lightblue;
   max-width: 90%;
   margin: 70px auto 0 auto;
@@ -26,11 +26,11 @@
 
 
 
-.preamble p, .participation p {
+.preamble p, .participation p, .requirements p {
   color: $primarydkblue;
 }
 
-.preamble p:first-of-type, .participation p:first-of-type,  .explanation p:first-of-type, .benefits p:first-of-type{
+.preamble p:first-of-type, .participation p:first-of-type,  .explanation p:first-of-type, .benefits p:first-of-type, .requirements p:first-of-type{
   margin-top: 0px;
 }
 

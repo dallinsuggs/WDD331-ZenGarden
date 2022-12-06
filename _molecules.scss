@@ -30,7 +30,7 @@ transform-origin: $origin;
   border-radius: 20px 20px 0 0;
 }
 
-.preamble h3, .participation h3 {
+.preamble h3, .participation h3, .requirements h3 {
     @extend %h3tags;
     color: white;
     border: solid $lightblue 2px;
@@ -52,7 +52,7 @@ transform-origin: $origin;
   }
 
   @media screen and (min-width: $break-large) {
-    .preamble h3, .participation h3, .explanation h3, .benefits h3 {
+    .preamble h3, .participation h3, .explanation h3, .benefits h3, .requirements h3 {
         position: relative;
         max-width: 200px;
         padding: 5px;
@@ -74,7 +74,7 @@ transform-origin: $origin;
       margin-top: 2em!important;
     }
 
-    .participation h3, .benefits h3 {
+    .participation h3, .benefits h3, .requirements h3 {
       margin-top: 10px;
       left:-30px;
       top: 172px;
