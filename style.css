@@ -3,18 +3,25 @@ h1 {
   font-family: "Montserrat", sans-serif;
   color: #CAF0F8;
   font-size: 3em;
+  margin: 10px 0;
 }
 
 h2 {
   font-family: "Comforter Brush", cursive;
   color: #CAF0F8;
   font-size: 2.6em;
+  margin: 0;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #CAF0F8;
   font-size: 1.8em;
+}
+
+.summary {
+  max-width: 500px;
+  margin-bottom: 40px;
 }
 
 h4 {
@@ -68,9 +75,14 @@ section, .supporting, .sidebar {
 }
 
 .sidebar {
-  border-style: outset;
+  margin-right: 20px;
+}
+
+.wrapper {
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
+  padding: 15px;
 }
 
 a {
@@ -94,36 +106,36 @@ a:hover {
   background-color: #03045E;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .swatch.accent1 {
   background-color: #0096c7;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .swatch.accent2 {
   background-color: #48cae4;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .swatch.text-dark {
   background-color: #CAF0F8;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 li {
@@ -134,9 +146,9 @@ li {
 }
 
 .sidebar ul {
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 2em;
   padding-top: 2.5em;
   border-style: groove;

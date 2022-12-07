@@ -7,9 +7,9 @@
 }
 
 @mixin border {
-  border-style: outset;
+  border-style: solid;
   border-color: $secondaryblue;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 @mixin heading($size, $font) {
@@ -21,14 +21,21 @@
 
 h1 {
   @include heading(3em, $cleartitle);
+  margin: 10px 0;
 }
 
 h2 {
   @include heading(2.6em, $brushtitle);
+  margin: 0;
 }
 
 h3 {
   @include heading(1.8em, $cleartitle);
+}
+
+.summary {
+  max-width: 500px;
+  margin-bottom: 40px;
 }
 
 h4 {
@@ -84,7 +91,12 @@ section, .supporting, .sidebar {
 }
 
 .sidebar {
+  margin-right: 20px;
+}
+
+.wrapper {
   @include border();
+  padding: 15px;
 }
 
 a {
