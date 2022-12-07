@@ -79,9 +79,10 @@ section, .supporting, .sidebar {
 }
 
 .wrapper {
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
+  padding: 15px;
 }
 
 a {
@@ -105,36 +106,36 @@ a:hover {
   background-color: #03045E;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .swatch.accent1 {
   background-color: #0096c7;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .swatch.accent2 {
   background-color: #48cae4;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .swatch.text-dark {
   background-color: #CAF0F8;
   width: 5em;
   height: 5em;
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 li {
@@ -145,9 +146,9 @@ li {
 }
 
 .sidebar ul {
-  border-style: outset;
+  border-style: solid;
   border-color: #0096c7;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 2em;
   padding-top: 2.5em;
   border-style: groove;

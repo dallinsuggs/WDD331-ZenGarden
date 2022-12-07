@@ -7,9 +7,9 @@
 }
 
 @mixin border {
-  border-style: outset;
+  border-style: solid;
   border-color: $secondaryblue;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 @mixin heading($size, $font) {
@@ -96,6 +96,7 @@ section, .supporting, .sidebar {
 
 .wrapper {
   @include border();
+  padding: 15px;
 }
 
 a {
