@@ -3,12 +3,14 @@ h1 {
   font-family: "Montserrat", sans-serif;
   color: #CAF0F8;
   font-size: 3em;
+  margin: 10px 0;
 }
 
 h2 {
   font-family: "Comforter Brush", cursive;
   color: #CAF0F8;
   font-size: 2.6em;
+  margin: 0;
 }
 
 h3 {
@@ -17,8 +19,9 @@ h3 {
   font-size: 1.8em;
 }
 
-h3:hover {
-  transform: scale(1.5);
+.summary {
+  max-width: 500px;
+  margin-bottom: 40px;
 }
 
 h4 {
@@ -72,6 +75,10 @@ section, .supporting, .sidebar {
 }
 
 .sidebar {
+  margin-right: 20px;
+}
+
+.wrapper {
   border-style: outset;
   border-color: #0096c7;
   border-radius: 5px;
