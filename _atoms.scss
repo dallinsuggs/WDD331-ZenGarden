@@ -31,6 +31,10 @@ h3 {
   @include heading(1.8em, $cleartitle);
 }
 
+h3:hover {
+  transform: scale(1.5);
+}
+
 h4 {
   @include heading(1.5em, $cleartitle);
   font-style: italic;

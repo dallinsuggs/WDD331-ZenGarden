@@ -17,6 +17,10 @@ h3 {
   font-size: 1.8em;
 }
 
+h3:hover {
+  transform: scale(1.5);
+}
+
 h4 {
   font-family: "Montserrat", sans-serif;
   color: #CAF0F8;
