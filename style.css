@@ -302,6 +302,7 @@ li {
     background-position: right;
     background-size: 25%;
     overflow: overlay;
+    animation: gradient 60s ease infinite;
   }
 }
 
