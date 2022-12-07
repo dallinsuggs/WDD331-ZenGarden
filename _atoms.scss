@@ -9,7 +9,7 @@
 @mixin border {
   border-style: solid;
   border-color: $secondaryblue;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 @mixin heading($size, $font) {

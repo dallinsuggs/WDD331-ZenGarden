@@ -81,7 +81,7 @@ section, .supporting, .sidebar {
 .wrapper {
   border-style: solid;
   border-color: #0096c7;
-  border-radius: 0px;
+  border-radius: 20px;
   padding: 15px;
 }
 
@@ -108,7 +108,7 @@ a:hover {
   height: 5em;
   border-style: solid;
   border-color: #0096c7;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 .swatch.accent1 {
@@ -117,7 +117,7 @@ a:hover {
   height: 5em;
   border-style: solid;
   border-color: #0096c7;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 .swatch.accent2 {
@@ -126,7 +126,7 @@ a:hover {
   height: 5em;
   border-style: solid;
   border-color: #0096c7;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 .swatch.text-dark {
@@ -135,7 +135,7 @@ a:hover {
   height: 5em;
   border-style: solid;
   border-color: #0096c7;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 li {
@@ -148,7 +148,7 @@ li {
 .sidebar ul {
   border-style: solid;
   border-color: #0096c7;
-  border-radius: 0px;
+  border-radius: 20px;
   padding: 2em;
   padding-top: 2.5em;
   border-style: groove;
